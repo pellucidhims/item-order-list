@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.ToastDisplay {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  box-shadow: 1px 10px 10px 5px gray;
+  border-radius: 20px;
+}
+
+.Root {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px 40px 0px;
+}
+
+.ResetData {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.RootVertical {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}

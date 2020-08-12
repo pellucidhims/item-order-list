@@ -1,0 +1,30 @@
+.OrderSummaryRoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: 1px 5px 15px 10px gray;
+  min-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.TotalOrderRoot {
+  background-color: gray;
+  width: 100%;
+  color: white;
+}
+
+.OrderSummaryTitle {
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.OrderSummaryContent {
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

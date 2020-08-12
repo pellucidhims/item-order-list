@@ -1,0 +1,31 @@
+.ListRoot {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ListItemRoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ListItemHeader {
+  text-align: right;
+  border: 1px solid green;
+  min-width: 150px;
+}
+
+.ListHeaderRoot {
+  display: flex;
+  justify-content: space-around;
+  min-width: 500px;
+}
+
+.ListContentWrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  justify-content: space-around;
+  align-items: center;
+}

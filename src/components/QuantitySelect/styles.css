@@ -1,0 +1,22 @@
+.QuantityRoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.QuantityControlButton {
+  padding: 10px;
+  cursor: pointer;
+  color: green;
+}
+
+.QuantityControlButtonDisable {
+  color: red;
+  cursor: default;
+}
+
+.QuantityDisplayCount {
+  padding: 10px;
+  border: 1px solid gray;
+  font-weight: bold;
+}
